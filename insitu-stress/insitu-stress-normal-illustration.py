@@ -24,7 +24,7 @@ ax = fig.add_subplot(projection='3d')
 # sizes, positions and colors.
 ax.voxels(data, facecolors=colors)
 
-# STRIKE-SLIP STRESS STATE
+# NORMAL STRESS STATE
 # vertical stress
 sigma_v = 1.92 * -1 - axes[2] # acuan stress vertical ke bawah
                               ## karena batuan mengalami kompaksi

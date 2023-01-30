@@ -30,7 +30,7 @@ ax.quiver(0, 0, 0, sigma_h_min, sigma_h_max, sigma_v, color="b", linewidths=1)
 seawater_sg = 1.03
 
 # vertical stress
-sigma_v = (1.95 - seawater_sg) * -1 # acuan stress vertical ke bawah
+sigma_v = (1.92 - seawater_sg) * -1 # acuan stress vertical ke bawah
                     ## karena batuan mengalami kompaksi
 
 # horizontal stress

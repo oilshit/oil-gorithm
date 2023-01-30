@@ -24,7 +24,7 @@ ax.quiver(sigma_h_min, sigma_h_max, 0, 0, 0, sigma_v, color=mcolors.CSS4_COLORS[
 ax.scatter(sigma_h_min, sigma_h_max, sigma_v, label="Strike-slip Fault", color=mcolors.CSS4_COLORS["dodgerblue"])
 ax.quiver(0, 0, 0, sigma_h_min, sigma_h_max, sigma_v, color=mcolors.CSS4_COLORS["dodgerblue"], linewidths=2)
 
-# EFFECTIVE STRESS STATE
+# EFFECTIVE STRIKE-SLIP STRESS STATE
 # horizontal stress
 seawater_sg = 1.03
 
