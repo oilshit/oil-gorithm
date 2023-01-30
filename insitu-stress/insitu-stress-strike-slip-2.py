@@ -17,9 +17,9 @@ sigma_h_max = 1.92
 
 # add scatter (dot) plot into every single sigma
 ## to get the geological stress state
-ax.quiver(0, 0, 0, sigma_h_min, 0, 0, color=mcolors.CSS4_COLORS["maroon"], linewidths=2)
-ax.quiver(0, 0, 0, 0, sigma_h_max, 0, color=mcolors.CSS4_COLORS["maroon"], linewidths=2)
-ax.quiver(0, 0, 0, 0, 0, sigma_v, color=mcolors.CSS4_COLORS["maroon"], linewidths=2)
+ax.quiver(0, 0, 0, sigma_h_min, 0, 0, color=mcolors.CSS4_COLORS["maroon"], linestyle="dashed", linewidths=2)
+ax.quiver(0, 0, 0, 0, sigma_h_max, 0, color=mcolors.CSS4_COLORS["maroon"], linestyle="dashed", linewidths=2)
+ax.quiver(0, 0, 0, 0, 0, sigma_v, color=mcolors.CSS4_COLORS["maroon"], linestyle="dashed", linewidths=2)
 
 ax.scatter(sigma_h_min, sigma_h_max, sigma_v, label="Strike-slip Fault", color=mcolors.CSS4_COLORS["dodgerblue"])
 ax.quiver(0, 0, 0, sigma_h_min, sigma_h_max, sigma_v, color=mcolors.CSS4_COLORS["dodgerblue"], linewidths=2)
